@@ -58,12 +58,11 @@ const Customizer = () => {
 	}
 
 	const handleSubmit = async (prompt, type) => {
-		console.log(prompt)
 		if (!prompt) return alert('Please enter a prompt')
 
 		try {
 			setGeneratingImage(true)
-			const response = await fetch(config.backendUrl, {
+			const response = await fetch(config.development.backendUrl, {
 				method: 'POST',
 				headers: {
 					'Content-Type': 'application/json',

@@ -36,10 +36,7 @@ const Home = () => {
 							{...headContentAnimation}
 							className='flex flex-col gap-5'
 						>
-							<p
-								text-center
-								className='max-w-md text-md font-normal text-gray-600 text-base'
-							>
+							<p className='max-w-md text-md font-normal text-gray-600 text-base'>
 								Designing your high quality custom garment takes minutes.
 								<strong> Who knows... </strong>
 								<br className='xl:block hidden' />
